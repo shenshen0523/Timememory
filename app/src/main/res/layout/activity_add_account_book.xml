@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_vertical_margin">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/view_rounded_corners_back"
+        android:paddingRight="4dp">
+
+        <TextView
+            style="@style/titleTextStyle"
+            android:layout_width="96dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:text="账目类型" />
+
+        <com.hfnu.zl.ui.widget.MySelectView
+            android:id="@+id/tv_type_select"
+            style="@style/titleTextStyle"
+            android:textColor="@color/textColorSecondary"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_alignParentRight="true"
+            android:drawableRight="@mipmap/ic_down_more"
+            android:text="家庭" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:background="@drawable/view_rounded_corners_back"
+        android:paddingRight="4dp">
+
+        <TextView
+            style="@style/titleTextStyle"
+            android:layout_width="96dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:text="用途明细" />
+
+        <com.hfnu.zl.ui.widget.MySelectView
+            android:id="@+id/tv_use_select"
+            style="@style/titleTextStyle"
+            android:textColor="@color/textColorSecondary"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_alignParentRight="true"
+            android:drawableRight="@mipmap/ic_down_more"
+            android:text="吃饭" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:background="@drawable/view_rounded_corners_back">
+
+        <TextView
+            android:id="@+id/textView"
+            style="@style/titleTextStyle"
+            android:layout_width="96dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:text="金额" />
+        <EditText
+            android:id="@+id/et_money"
+            android:layout_width="128dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="1dp"
+            android:layout_toLeftOf="@+id/tv_unit"
+            android:background="#00000000"
+            android:ems="8"
+            android:maxLength="10"
+            android:gravity="right"
+            android:hint="0.00"
+            android:inputType="numberDecimal" />
+
+        <TextView
+            android:id="@+id/tv_unit"
+            style="@style/titleTextStyle"
+            android:textColor="@color/textColorSecondary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/tv_turnover_select"
+            android:layout_centerVertical="true"
+            android:text="元" />
+        <com.hfnu.zl.ui.widget.MySelectView
+            android:id="@+id/tv_turnover_select"
+            style="@style/titleTextStyle"
+            android:textColor="@color/textColorSecondary"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="6dp"
+            android:gravity="center"
+            android:layout_alignParentRight="true"
+            android:text="@string/str_expenditure"
+            android:drawableRight="@mipmap/ic_down_more" />
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/et_remark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:background="@drawable/view_rounded_corners_back"
+        android:gravity="top"
+        android:hint="备注..."
+        android:minLines="5"
+        android:textColor="@color/textColorSecondary"
+        android:textSize="16dp" />
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:background="@drawable/btn_background"
+        android:text="@string/str_save"
+        android:textColor="#ffffff" />
+</LinearLayout>

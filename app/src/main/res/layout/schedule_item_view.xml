@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/list_item_back"
+    android:padding="6dp"
+    android:gravity="center"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tv_schedule_name"
+            style="@style/titleTextStyle" />
+        <TextView
+            android:id="@+id/tv_timer"
+            style="@style/subtitleTextStyle" />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/tv_mood"
+        style="@style/subtitleTextStyle"
+        android:layout_width="36dp"
+        android:layout_marginRight="6dp"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:layout_marginLeft="6dp"/>
+</LinearLayout>

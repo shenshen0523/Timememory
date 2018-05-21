@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/statistics" app:showAsAction="ifRoom" android:icon="@drawable/ic_statistics" android:title="@string/str_statistics" android:visible="false"></item>
+    <item android:id="@+id/calendar" app:showAsAction="ifRoom" android:icon="@drawable/ic_calendar" android:title="@string/str_calendar" android:visible="false"></item>
+    <item android:id="@+id/add" app:showAsAction="ifRoom" android:icon="@drawable/ic_add" android:title="@string/str_add"></item>
+    <item android:id="@+id/setting" app:showAsAction="never" android:title="@string/str_setting"></item>
+    <item android:id="@+id/exit" app:showAsAction="never" android:title="@string/str_exit"></item>
+</menu>

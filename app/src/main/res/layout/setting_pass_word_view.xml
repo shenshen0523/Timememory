@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:padding="@dimen/activity_vertical_margin"
+    android:paddingBottom="4dp"
+    android:layout_height="match_parent">
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/activity_vertical_margin">
+        <EditText
+            android:id="@+id/et_old_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/str_administrative_old_password"
+            android:imeActionId="@+id/login"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:singleLine="true" />
+        <!-- android:imeActionLabel="@string/str_administrative_password"-->
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/activity_vertical_margin">
+        <EditText
+            android:id="@+id/et_new_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/str_administrative_new_password"
+            android:imeActionId="@+id/login"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:singleLine="true" />
+        <!-- android:imeActionLabel="@string/str_administrative_password"-->
+    </android.support.design.widget.TextInputLayout>
+</LinearLayout>

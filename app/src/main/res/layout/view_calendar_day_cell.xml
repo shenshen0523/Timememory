@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.hfnu.zl.ui.widget.CalendarLinearlayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/style_calendar_cell.normal">
+
+    <TextView
+        android:id="@+id/txtCellGregorian"
+        style="@style/style_calendar_gregorian.normal"
+        android:text="@string/demo" />
+    <TextView
+        android:id="@+id/txtCellLunar"
+        style="@style/style_calendar_lunar.normal"
+        android:text="@string/demo" />
+
+</com.hfnu.zl.ui.widget.CalendarLinearlayout>

@@ -1,0 +1,109 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorPrimary">@color/textColorPrimary</item>
+        <item name="android:textColorSecondary">@color/textColorSecondary</item>
+        <item name="android:actionBarSize">@dimen/toolbar_size</item><!--toolBar高度-->
+        <item name="android:windowBackground">@drawable/windowBackground</item><!--窗口背景-->
+    </style>
+    <style name="Toolbar.TitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="Toolbar.SubTitleText" parent="TextAppearance.AppCompat.Widget.ActionBar.Subtitle">
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="AppTheme.NoActionBar" parent="AppTheme"><!--没有actionBar的主题（用ToolBar替换）-->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <!--    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />-->
+    <style name="main_radio_style">
+        <item name="android:button">@null</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textColor">@drawable/radio_button_text_color</item>
+    </style>
+
+    <style name="titleTextStyle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textColor">@color/textColorPrimary</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="subtitleTextStyle" parent="titleTextStyle">
+        <item name="android:textColor">@color/textColorSecondary</item>
+        <item name="android:textSize">14dp</item>
+    </style>
+
+    <style name="weekTextStyle" parent="subtitleTextStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="style_calendar_cell">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:onClick">onCellClick</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="style_calendar_cell.normal">
+        <item name="android:background">@drawable/shape_calendar_cell_normal</item>
+    </style>
+
+
+    <style name="style_calendar_cell.today">
+        <item name="android:background">@drawable/shape_calendar_cell_today</item>
+    </style>
+
+    <style name="style_calendar_gregorian">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="style_calendar_gregorian.normal">
+        <item name="android:textColor">@color/textColorSecondary</item>
+    </style>
+
+    <style name="style_calendar_gregorian.outrange">
+        <item name="android:textColor">@color/textColorHint</item>
+    </style>
+
+
+    <style name="style_calendar_lunar">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:textSize">14dp</item>
+        <item name="android:paddingBottom">2dp</item>
+    </style>
+
+    <style name="style_calendar_lunar.normal">
+        <item name="android:textColor">@color/colorlist_calendar_lunar_text_color</item>
+    </style>
+
+    <style name="style_calendar_lunar.outrange">
+        <item name="android:textColor">@color/textColorHint</item>
+    </style>
+
+</resources>

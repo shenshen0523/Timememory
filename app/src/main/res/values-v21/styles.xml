@@ -1,0 +1,14 @@
+<resources>
+
+    <style name="AppTheme.NoActionBar" parent="AppTheme">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+    </style>
+  <!--  <style name="Toolbar.TitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">18sp</item>
+        <item name="android:subtitleTextAppearance">@style/Toolbar.SubTitleText</item>
+        <item name="android:subtitleTextStyle">@style/Toolbar.SubTitleText</item>
+    </style>-->
+</resources>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+   <include layout="@layout/my_action_bar"/>
+<!--    <LinearLayout
+        android:id="@+id/fragment_parent"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+    </LinearLayout>-->
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider"/>
+    <RadioGroup
+        android:id="@+id/tab_group"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_height="56dp">
+        <RadioButton
+            android:id="@+id/rb_diary"
+            style="@style/main_radio_style"
+            android:text="@string/str_diary"
+            android:drawableTop="@drawable/ic_rb_diary"
+            android:checked="true"/>
+        <RadioButton
+            android:id="@+id/rb_account_book"
+            style="@style/main_radio_style"
+            android:drawableTop="@drawable/ic_rb_account_book"
+            android:text="@string/str_account_book"/>
+        <RadioButton
+            android:id="@+id/rb_schedule"
+            style="@style/main_radio_style"
+            android:drawableTop="@drawable/ic_rb_calendar"
+            android:text="@string/str_schedule"/>
+
+    </RadioGroup>
+</LinearLayout>

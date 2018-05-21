@@ -1,0 +1,242 @@
+<resources>
+    <string name="app_name">时光记</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="str_setting">设置</string>
+    <string name="str_exit">退出</string>
+    <string name="str_administrative_password">请输入管理密码</string>
+    <string name="str_administrative_old_password">请输入原密码</string>
+    <string name="str_administrative_new_password">请输入新密码</string>
+    <string name="str_is_set_password">是否设置密码</string>
+    <string name="str_edit_password">设置密码</string>
+    <string name="str_administrative_custom_content">请输入自定义内容</string>
+    <string name="str_max_6char">不超过6个字符</string>
+    <string name="str_pass_word_error">密码错误</string>
+    <string name="str_set_password">请设置管理密码</string>
+    <string name="str_record_not_started">录制未开始</string>
+    <string name="str_ok">确认</string>
+    <string name="str_cancel">取消</string>
+    <string name="str_reset">重置新录制</string>
+    <string name="str_edit">编辑</string>
+    <string name="str_delete">删除</string>
+    <string name="str_check_the_diary">查看日记</string>
+    <string name="str_delete_diary">删除日记</string>
+    <string name="str_no_set_pass_word">暂不设置密码</string>
+    <string name="str_diary">日记</string>
+    <string name="str_add_diary">写日记</string>
+    <string name="str_edit_diary">编辑日记</string>
+    <string name="str_account_book">手帐</string>
+    <string name="str_add_account_book">添加手帐</string>
+    <string name="str_edit_account_book">修改手帐</string>
+    <string name="str_schedule">日程</string>
+    <string name="str_add_schedule">新增日程</string>
+    <string name="str_edit_schedule">修改日程</string>
+    <string name="str_add">添加</string>
+    <string name="str_calendar">日历</string>
+    <string name="str_statistics">统计</string>
+    <string name="str_account_book_statistics">账单统计</string>
+    <string name="str_temporarily_no_records_of_consumption">暂时没有消费记录</string>
+    <string name="str_temporarily_no_income_record">暂时没有收入记录</string>
+    <string name="str_null">暂时没有任何内容</string>
+    <string name="str_save">保存</string>
+    <string name="str_income">收入</string>
+    <string name="str_expenditure">支出</string>
+    <string name="str_account_book_details">账单详情</string>
+    <string name="str_schedule_details">日程详情</string>
+    <string name="str_click_start_record">点击录音</string>
+    <string name="str_being_record">正在录音</string>
+    <string name="str_play_record">点击播放</string>
+    <string name="str_schedule_name_is_the_null">日程名称不能为空</string>
+    <string name="str_add_record">添加录音</string>
+    <string name="str_diary_is_set_pass_word">此日记为加密日记，请输入密码后进行查看。</string>
+
+    <string name="desc_previous_month">previous month</string>
+    <string name="desc_next_month">next month</string>
+    <string name="desc_today">return to today</string>
+    <string name="desc_popup_menu">Popup menu</string>
+    <string name="desc_cell_hint">cell hint</string>
+    <string name="chinese_week">周</string>
+    <string name="demo">demo</string>
+    <string name="calendar_sunday">周日</string>
+    <string name="calendar_monday">周一</string>
+    <string name="calendar_tuesday">周二</string>
+    <string name="calendar_wednsday">周三</string>
+    <string name="calendar_thursday">周四</string>
+    <string name="calendar_firday">周五</string>
+    <string name="calendar_saturday">周六</string>
+    <item name="tag_date" type="id" />
+    <array name="account_book_details_item_name_array">
+        <item>时间：</item>
+        <item>账目类型：</item>
+        <item>用途明细：</item>
+        <item>金额：</item>
+        <item>备注：</item>
+    </array>
+    <array name="schedule_details_item_name_array">
+        <item>日程名称：</item>
+        <item>具体时间：</item>
+        <item>当时心情：</item>
+        <item>备注：</item>
+    </array>
+    <array name="type_array">
+        <item>家庭</item>
+        <item>交通</item>
+        <item>公司</item>
+        <item>其他</item>
+        <item>自定义</item>
+    </array>
+    <array name="family_array">
+        <item>生活用品</item>
+        <item>吃饭喝酒</item>
+        <item>家具用品</item>
+        <item>水电网费</item>
+        <item>其他</item>
+        <item>自定义</item>
+    </array>
+    <array name="company_array">
+        <item>电子设备</item>
+        <item>应用软件</item>
+        <item>共用缴费</item>
+        <item>其他</item>
+        <item>自定义</item>
+    </array>
+    <array name="travel_array">
+        <item>公共交通</item>
+        <item>打车租车</item>
+        <item>私家车费用</item>
+        <item>其他</item>
+        <item>自定义</item>
+    </array>
+    <array name="other_array">
+        <item>其他</item>
+        <item>自定义</item>
+    </array>
+    <array name="diary_type_array">
+        <item>日记</item>
+        <item>学习</item>
+        <item>歌曲</item>
+        <item>诗歌</item>
+        <item>随笔</item>
+        <item>观后感</item>
+        <item>自定义</item>
+    </array>
+    <array name="mood_type_array">
+        <item>高兴</item>
+        <item>愤怒</item>
+        <item>悲痛</item>
+        <item>惊诧</item>
+        <item>恐惧</item>
+        <item>想念</item>
+        <item>大哭</item>
+        <item>不屑</item>
+    </array>
+    <array name="diary_pass_word_array">
+        <item>否</item>
+        <item>是</item>
+    </array>
+    <string-array name="gregorianFestivals">
+        <item>元旦</item>
+        <item>情人节</item>
+        <item>妇女节</item>
+        <item>植树节</item>
+        <item>权益日</item>
+        <item>愚人节</item>
+        <item>劳动节</item>
+        <item>儿童节</item>
+        <item>教师节</item>
+        <item>国庆节</item>
+        <item>万圣节</item>
+        <item>平安夜</item>
+        <item>圣诞节</item>
+    </string-array>
+    <string-array name="lunarFestivals">
+        <item>元宵节</item>
+        <item>端午节</item>
+        <item>七夕</item>
+        <item>中元节</item>
+        <item>中秋节</item>
+        <item>重阳节</item>
+        <item>祭祖节</item>
+        <item>腊八节</item>
+        <item>小年</item>
+        <item>除夕</item>
+    </string-array>
+    <string-array name="solarTerm">
+        <item>小寒</item>
+        <item>大寒</item>
+        <item>立春</item>
+        <item>雨水</item>
+        <item>惊蛰</item>
+        <item>春分</item>
+        <item>清明</item>
+        <item>谷雨</item>
+        <item>立夏</item>
+        <item>小满</item>
+        <item>芒种</item>
+        <item>夏至</item>
+        <item>小暑</item>
+        <item>大暑</item>
+        <item>立秋</item>
+        <item>处暑</item>
+        <item>白露</item>
+        <item>秋分</item>
+        <item>寒露</item>
+        <item>霜降</item>
+        <item>立冬</item>
+        <item>小雪</item>
+        <item>大雪</item>
+        <item>冬至</item>
+    </string-array>
+    <string-array name="chineseDigital">
+        <item>〇</item>
+        <item>一</item>
+        <item>二</item>
+        <item>三</item>
+        <item>四</item>
+        <item>五</item>
+        <item>六</item>
+        <item>七</item>
+        <item>八</item>
+        <item>九</item>
+        <item>十</item>
+    </string-array>
+    <string-array name="chinesePrefix">
+        <item>初</item>
+        <item>十</item>
+        <item>廿</item>
+        <item>正</item>
+        <item>冬</item>
+        <item>腊</item>
+        <item>闰</item>
+    </string-array>
+    <string-array name="chineseTime">
+        <item>年</item>
+        <item>月</item>
+        <item>日</item>
+    </string-array>
+    <string-array name="chinese_gan">
+        <item>甲</item>
+        <item>乙</item>
+        <item>丙</item>
+        <item>丁</item>
+        <item>戊</item>
+        <item>己</item>
+        <item>庚</item>
+        <item>辛</item>
+        <item>壬</item>
+        <item>癸</item>
+    </string-array>
+    <string-array name="chinese_zhi">
+        <item>子</item>
+        <item>丑</item>
+        <item>寅</item>
+        <item>卯</item>
+        <item>辰</item>
+        <item>巳</item>
+        <item>午</item>
+        <item>未</item>
+        <item>申</item>
+        <item>酉</item>
+        <item>戌</item>
+        <item>亥</item>
+    </string-array>
+</resources>
